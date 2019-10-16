@@ -16,8 +16,8 @@ enum ArithmeticTokenType implements tokenize.TokenType {
     EOF(null);
     private final String regex;
 
-    private ArithmeticTokenType(String pattern) {
-        this.regex = pattern;
+    private ArithmeticTokenType(String regex) {
+        this.regex = regex;
     }
 
     @Override
