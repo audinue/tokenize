@@ -5,7 +5,9 @@ Java tokenization library. Compatible with Java 7.
 ## Example
 
 ```java
-enum ArithmeticTokenType implements tokenize.TokenType {
+import tokenize.TokenType;
+
+enum ArithmeticTokenType implements TokenType {
 
     ADD("[+\\-]"),
     MULTIPLY("[*/]"),
